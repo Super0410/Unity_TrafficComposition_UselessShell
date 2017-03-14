@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Car\CarGenerator.cs" />
      <Compile Include="Assets\Scripts\Car\CarMovement.cs" />
      <Compile Include="Assets\Scripts\Car\GenerateProperties.cs" />
+     <Compile Include="Assets\Scripts\InputManager\BlueToothInputManager.cs" />
      <Compile Include="Assets\Scripts\InputManager\ExcelInputManager.cs" />
      <Compile Include="Assets\Scripts\InputManager\TrafficInputManager.cs" />
      <Compile Include="Assets\Scripts\Light\LightBasic.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\Scripts\Public&amp;Interfaces\IPanelCanMaximum.cs" />
      <Compile Include="Assets\Scripts\Public&amp;Interfaces\PublicStuffs.cs" />
      <Compile Include="Assets\Scripts\Utils\PanelMaximum.cs" />
+     <Compile Include="Assets\Scripts\Utils\Panel_OpenCloseManager.cs" />
      <Compile Include="Assets\Scripts\Utils\RandomUtil.cs" />
      <None Include="Assets\SimpleTown\Changelog.txt" />
  <Reference Include="UnityEngine.Analytics">

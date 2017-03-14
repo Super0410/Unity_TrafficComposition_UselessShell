@@ -1,8 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Public&amp;Interfaces\PublicStuffs.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Properties\PMRuntimeValueManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\Public&amp;Interfaces\PublicStuffs.cs" Line="30" Column="24" />
+      <File FileName="Assets\Scripts\Public&amp;Interfaces\PublicStuffs.cs" Line="22" Column="2" />
+      <File FileName="Assets\Scripts\Utils\Panel_OpenCloseManager.cs" Line="14" Column="21" />
+      <File FileName="Assets\Scripts\InputManager\BlueToothInputManager.cs" Line="25" Column="3" />
+      <File FileName="Assets\Scripts\Properties\PMRuntimeValueManager.cs" Line="31" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

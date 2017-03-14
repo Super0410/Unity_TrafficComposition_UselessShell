@@ -14,17 +14,23 @@ public class PMRuntimeValueManager : MonoBehaviour
 	public float RandomScale;
 
 	RandomUtil randomUtil;
+	bool hasRandomStart = false;
 
 	void Start ()
 	{
 		randomUtil = new RandomUtil ();
 
 		//TODO
+		GameObject.Find ("InputManager").GetComponent<BlueToothInputManager> ().OnBlueToothConnectedHandler += randomValue;
 	}
 
 	void randomValue ()
 	{
+		if (hasRandomStart)
+			return;
+		
 		StartCoroutine (randomUtil.randomValue (PrePM, Text_PM, PMUnit, RandomTime, RandomScale, PMPrefix));
+		hasRandomStart = true;
 	}
 
 	void stopRandom ()
