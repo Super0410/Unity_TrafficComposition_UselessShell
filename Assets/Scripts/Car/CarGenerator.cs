@@ -10,7 +10,7 @@ public class CarGenerator : MonoBehaviour
 
 	GenerateProperties generateProperties;
 
-	void Start ()
+	void OnEnable ()
 	{
 		generateProperties = GetComponentInParent<GenerateProperties> ();
 		StartCoroutine (generatTimer ());
@@ -33,5 +33,10 @@ public class CarGenerator : MonoBehaviour
 		oneCar.GetComponent<CarMovement> ().isHorizontal = isGenerateHorizontal;
 		oneCar.GetComponent<CarMovement> ().preSpeed = generateProperties.carSpeed;
 		oneCar.GetComponent<CarMovement> ().curAcceleration = generateProperties.carAcceleration;
+	}
+
+	void OnDisable ()
+	{
+		StopAllCoroutines ();
 	}
 }

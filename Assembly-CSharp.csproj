@@ -46,20 +46,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EasyMovieTexture\Scripts\MedaiPlayerSampleGUI.cs" />
+     <Compile Include="Assets\EasyMovieTexture\Scripts\MedaiPlayerSampleSphereGUI.cs" />
+     <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerCtrl.cs" />
+     <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerFullScreenCtrl.cs" />
+     <Compile Include="Assets\EasyMovieTexture\Scripts\SphereMirror.cs" />
      <Compile Include="Assets\Scripts\Car\CarGenerator.cs" />
      <Compile Include="Assets\Scripts\Car\CarMovement.cs" />
      <Compile Include="Assets\Scripts\Car\GenerateProperties.cs" />
      <Compile Include="Assets\Scripts\InputManager\BlueToothInputManager.cs" />
-     <Compile Include="Assets\Scripts\InputManager\ExcelInputManager.cs" />
+     <Compile Include="Assets\Scripts\InputManager\LayourScaleInputManager.cs" />
+     <Compile Include="Assets\Scripts\InputManager\SwitchPanelManager.cs" />
      <Compile Include="Assets\Scripts\InputManager\TrafficInputManager.cs" />
+     <Compile Include="Assets\Scripts\InputManager\VideoManager.cs" />
      <Compile Include="Assets\Scripts\Light\LightBasic.cs" />
      <Compile Include="Assets\Scripts\Light\LightController.cs" />
-     <Compile Include="Assets\Scripts\Properties\ExcelRuntimeValueManager.cs" />
-     <Compile Include="Assets\Scripts\Properties\IntersectionOnetimeValueManager.cs" />
-     <Compile Include="Assets\Scripts\Properties\PMRuntimeValueManager.cs" />
-     <Compile Include="Assets\Scripts\Properties\QualityUIManger.cs" />
+     <Compile Include="Assets\Scripts\MatchVideo.cs" />
+     <Compile Include="Assets\Scripts\PropertiesManager\ExcelRuntimeValueManager.cs" />
+     <Compile Include="Assets\Scripts\PropertiesManager\IntersectionOnetimeValueManager.cs" />
+     <Compile Include="Assets\Scripts\PropertiesManager\PMRuntimeValueManager.cs" />
+     <Compile Include="Assets\Scripts\PropertiesManager\QualityUIManger.cs" />
+     <Compile Include="Assets\Scripts\PropertiesManager\TrafficEnableManager.cs" />
      <Compile Include="Assets\Scripts\Public&amp;Interfaces\IPanelCanMaximum.cs" />
      <Compile Include="Assets\Scripts\Public&amp;Interfaces\PublicStuffs.cs" />
+     <Compile Include="Assets\Scripts\Public&amp;Interfaces\QualityCircle.cs" />
+     <Compile Include="Assets\Scripts\StepManager.cs" />
      <Compile Include="Assets\Scripts\Utils\PanelMaximum.cs" />
      <Compile Include="Assets\Scripts\Utils\Panel_OpenCloseManager.cs" />
      <Compile Include="Assets\Scripts\Utils\RandomUtil.cs" />
